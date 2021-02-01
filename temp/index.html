@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("part/head", {title: "Home"}) %>
+  </head>
+  <body>
+    <%- include("part/nav") %>
+    <main class="main">
+      <%- include("part/page1", {
+        bg: "bg1", title: "Swarit Choudhari", subtitle: "A python coder/hacker and a chess player",
+        type: 0
+      }) %>
+      <%- include("part/pagel", {
+        bg: "bg2", title: "About", subtitle: "I am a coder. I like to code stuff with python and html and css and javascript. I am aa coder. Thank you for visiting this page.",
+        type: 1
+      }); %>
+      <%- include("part/pager", {
+        bg: "bg3", title: "Profile", subtitle: "I use repl.it and visual studio code to code stuff. If you want to play chess with me, my username is Chess_Monk1 on chess.com",
+        type: 0
+      }); %>
+    </main>
+  </body>
+</html>
